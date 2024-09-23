@@ -3,8 +3,6 @@ category = None
 
 # Open the CSV file
 with open(r'C:\Projects\toprankedanime.csv', 'r') as file:
-	# Read the header line
-	header = file.readline().strip().split(',')
 
 	# Since 'type' is the second column, we set type_index to 1
 	type_index = 1
